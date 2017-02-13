@@ -1,0 +1,107 @@
+html {
+	font-family: "Georgia", serif;
+	width: 100%;
+}
+
+footer {
+	margin: 0px auto;
+	width: 850px;
+	text-align: center;
+}
+section{
+	margin: 2%;
+}
+h1 {
+	margin: 2%;
+}
+h2 {
+	margin: 2%;
+}
+h3 {
+	margin: 2%;
+}
+
+h1 {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 24pt
+}
+
+body {
+	background-color: white;
+	background-repeat: no-repeat;
+	width: 96%;
+	opacity: .7;
+	margin: 2%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li a:visited {
+    color: #5F9EA0;
+}
+
+form {
+	width: 100%;
+}
+
+html {
+	float: left;
+	background-image: url("vr image.jpg");
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+	background-size: cover
+}
+
+.credits{
+	color: #2F4F4F;
+	font-weight: bold;
+}
+
+#commentary{
+	border-style: double
+}
+
+@media screen and (max-width: 1000px) {
+#external-links {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+section {
+  font-size: 8pt;
+}
+h1 {
+  font-size: 12pt;
+}
+h2 {
+  font-size: 12pt;
+}
+h3 {
+  font-size: 12pt;
+}
+}
